@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Profile Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="left-column">
+            <h3>Menu</h3>
+            <ul>
+                <li>Home</li>
+                <li>Friends</li>
+                <li>Groups</li>
+                <li>Settings</li>
+            </ul>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="middle-column">
+            <h2>User Profile</h2>
+            <p><b>Name:</b> <span id="userName">Rahul Kumar</span></p>
+            <p><b>Bio:</b> <span id="userBio">Web Developer</span></p>
+            <p><b>Location:</b> <span id="userLocation">India</span></p>
+
+            <h3>Update Information</h3>
+            <input type="text" id="nameInput" placeholder="Enter Name"><br><br>
+            <input type="text" id="bioInput" placeholder="Enter Bio"><br><br>
+            <input type="text" id="locationInput" placeholder="Enter Location"><br><br>
+            <button id="updateBtn">Update Profile</button>
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column">
+            <h3>Friends</h3>
+            <ul>
+                <li>Samrat Saha</li>
+                <li>Barsha Mahajan</li>
+                <li>Prince Singh</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
